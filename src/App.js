@@ -2,6 +2,9 @@
 import './App.css';
 import Hello from './Hello';
 import SayHello from './SayHello';
+import SubmitEvent from './component/chap01 event/SubmitEvent';
+import ChangeEvent from './component/chap01 event/ChangeEvent';
+import ClickEvent from './component/chap01 event/ClickEvent';
 
 //리액트에서는 하나의 컴포넌트가 여러개의 엘리먼트 반환 가능.
 //JSX를 작성할 때 return 문 안에 반드시 하나의 최상위 태그가 있어야 한다.
@@ -21,7 +24,7 @@ function App() {
   //{} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-      {looping()}
+      <SubmitEvent/>
     </> //프레그먼트 div가 표현이 안됨
 
 //    <div className="App">
