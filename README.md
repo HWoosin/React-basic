@@ -20,3 +20,6 @@ $ npm start
 ```
 
 - http://localhost:3000 에서 프론트엔드 서버 실행.
+
+# git clone 시 주의사항
+ 다른곳에서 clone을 했다면 npm install 로 없는 node_modules를 생성해준다.
